@@ -1,3 +1,73 @@
-h3 {color: rgb(100, 211, 211); font-size: 100px;}
+html, body, footer {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    color: rgb(100, 211, 211);
+     font-size: 100px;
+    }
+
+.myNav {
+        background-color: #373738;
+        text-align: center;
+        padding: 10px;
+    }
+
+a  {
+    color:aquamarine;
+    padding:20px;
+}
+
+.myProfile {
+    text-align: center;
+}
+
+.myProfile { 
+    background-color:white;
+    text-align: center;
+    padding: 5px;
+}
+
+.myDiv { 
+    border: 5px outset rgb(63, 61, 61);
+    background-color: #373738;
+    text-align: center;
+    padding: 5px;
+}
+
+.author {
+    color:white;
+}
+
+.flexContainer {
+    display:flex;
+    width:33%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.aboutMe {
+    border: 5px outset rgb(63, 61, 61);
+}
+
+.mySkills {
+    margin: 30px;
+    font-weight: 700;
+}
+
+.skills {
+    border: 5px outset rgb(63, 61, 61);
+}
+
+.grid-container {
+    display: grid;
+    border: 5px outset rgb(63, 61, 61);
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 30px;
+}
+
 
 
